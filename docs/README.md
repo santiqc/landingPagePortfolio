@@ -39,3 +39,28 @@ Lista: `{8, 1, 7, 2, 0, 3, 6, 4, 5, 9}`
 
 ```sql
 SELECT MAX(numero) FROM tabla;
+```
+---
+
+### 5. ¿Para qué se utiliza HAVING?
+
+Se utiliza para filtrar resultados agregados después de aplicar GROUP BY, a diferencia de WHERE, que filtra antes del agrupamiento.
+
+---
+
+### 6. Query de especialidades y cuántas veces se repiten
+
+```sql
+SELECT especialidad, COUNT(*) AS cantidad
+FROM PRUEBAESTUDIANTE
+GROUP BY especialidad;
+```
+---
+
+### 7. Consultar inscripciones con horario M-F9
+
+```sql
+SELECT *
+FROM PRUEBAESTUDIANTE
+WHERE horario = 'M-F9';
+```
