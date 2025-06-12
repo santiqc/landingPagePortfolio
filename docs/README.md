@@ -64,3 +64,24 @@ SELECT *
 FROM PRUEBAESTUDIANTE
 WHERE horario = 'M-F9';
 ```
+
+
+## 2. Ejercicio Java
+
+### 1. Función para calcular el área de un triángulo
+
+La fórmula para calcular el área de un triángulo es:  
+```java
+public double areaTriangulo(double base, double altura) {
+    return (base * altura) / 2;
+}
+```
+---
+### 2. Función para área de círculo
+
+La fórmula para calcular el área del circulo es:  
+```java
+public double areaCirculo(double radio) {
+    return Math.PI * radio * radio;
+}
+```
